@@ -24,7 +24,7 @@ h1{
 }
 
 p{
-    margin: 20px 0 10px 0;          /*Top right bottom left*/
+    margin: 20px 0 10px 0px;          /*Top right bottom left*/
     font-size: 1.1rem;
 }
 
@@ -32,7 +32,7 @@ section{
     display: flex;
     height: 100vh;
     align-items: center;
-    padding: 10px 30px;
+    padding: 100px 100px;
     margin: 20px 0;
 }
 
@@ -161,5 +161,28 @@ section{
     height: 110%;
 }
 
+
+/*Media Query for Small Screens*/
+@media(max-width: 1068px){
+    .home-img{
+        display: none;
+    }
+
+    .logo{
+        top: 10px;
+        left: 40px;
+        font-size: 1.5rem;
+    }
+
+    section{
+        padding: 100px 40px;
+    }
+
+    .navigation ul li a{
+        font-size: 2rem;
+    }
+
+
+}
 
 
